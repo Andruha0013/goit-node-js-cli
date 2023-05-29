@@ -19,6 +19,7 @@ https://monosnap.com/file/zetY9k8WTlwa5UNXNmiGVw4Wdgxtmp
 node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
 
 befor command: https://monosnap.com/file/H3kYgrFhIHnJ0wVFzrMYwVxl6Xu7wE
+
 after command: https://monosnap.com/file/wDxMR1KQaPgZucDHtX3nDKWCkAA1eN
 
 # Видаляємо контакт
@@ -26,4 +27,5 @@ after command: https://monosnap.com/file/wDxMR1KQaPgZucDHtX3nDKWCkAA1eN
 node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH
 
 befor command: https://monosnap.com/file/C2g9I8N2szPA2skjcM4bs0uHqySxw3
+
 after command: https://monosnap.com/file/d3o7GkMQt5lm5kJGkNmPioq3OAPXDR
