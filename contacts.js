@@ -1,27 +1,22 @@
 const fs = require("fs").promises;
 const path = require("path");
 const nanoid = require("nanoid");
-/*
- * Розкоментуйте і запиши значення*/
+
 const contactsPath = path.join(__dirname, "db", "contacts.json");
 
-// TODO: задокументувати кожну функцію
 async function listContacts() {
-	//console.log(contactsPath);
 	const data = await fs.readFile(contactsPath);
-	//console.log(JSON.parse(data));
 	return JSON.parse(data);
 }
 
 async function getContactById(contactId) {
 	const allContacts = await listContacts();
-	//return allContacts;
 	return allContacts.find((contact) => contact.id === contactId) || null;
 }
 
 async function removeContact(contactId) {
 	const allContacts = await listContacts();
-	const index = allContacts.findIndex((contact) => contact.id === id);
+	const index = allContacts.findIndex((contact) => contact.id === contactId);
 	if (index === -1) {
 		return null;
 	}
