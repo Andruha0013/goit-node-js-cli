@@ -6,7 +6,7 @@ node js Command Line Interface(CLI)
 
 node index.js --action="list"
 
-https://monosnap.com/file/d3o7GkMQt5lm5kJGkNmPioq3OAPXDR
+https://monosnap.com/file/78Trx3a2Q7jHhmhNCoq6kobzaVMZMS
 
 # Отримуємо контакт по id
 
